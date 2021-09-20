@@ -1,31 +1,8 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Congratulations, Dr Feng Zhu!
+date: 2021-05-21 16:11:00-0400
 inline: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
-
-***
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" target="blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" target="blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
-***
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+Congratulations to Dr [Feng Zhu](https://earth.usc.edu/~fengzhu/), who today successfully defended his dissertation _Seeing the Future through the Lens of the Past: Fusing Paleoclimate Observations and Models_. At USC, Feng (whom I must get used to calling Dr Zhu) published 2 papers as first author, one in PNAS, one in GRL. with another manuscript in revision at Nature Communications. Feng was also a sought-after co-author, contributing notably to the the Neukom et al [2019] [paper on global temperature reconstructions](https://dx.doi.org/10.1038%2Fs41561-019-0400-0) and a [book chapter on ENSO](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/9781119548164.ch5). In in 5 years at USC, Feng has also been a powerhouse of a scientific Python programmer, coming up with an intuitive way to perform [paleoclimate data assimilation](https://doi.org/10.5281/zenodo.2655097), paleoclimate reconstruction with [GraphEM](https://github.com/fzhu2e/GraphEM) and being a lead contributor to [Pyleoclim](https://github.com/LinkedEarth/Pyleoclim_util). Feng is now an assistant professor at the Nanjing Institute of Science and Technology in his native China, and we wish him the best for what is likely to be an astonishingly productive career!
