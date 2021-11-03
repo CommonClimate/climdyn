@@ -15,14 +15,14 @@ As an example, the figure below illustrates how several novel timeseries analysi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/speleo_poc_r.png' | relative_url }}" alt="" title="Hunting for abrupt shifts in paleohydrology  "/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/speleo_poc_r.png' | relative_url }}" alt="" title="Hunting for abrupt shifts in Asian paleohydrology over the Holocene"/>
     </div>
 </div>
 <div class="caption">
     (a) Asian caves from the SISAL database, version 2. (b) Detection of abrupt transitions via the [uncertise](https://www.nature.com/articles/s41467-017-02456-6) method. (c) Leading principal component of a Monte Carlo Principal Component analysis ([Deninger et al, 2017](https://link.springer.com/article/10.1007/s00382-016-3360-8)), with 5-95% quantiles (shaded envelope).
 </div>
 
-In addition, this grant initially supported 3 yearly, 20-person workshops to disseminate the techniques developed as part of this grant, and train a new generation of paleoclimatologists in using of the Linked Paleo Data research ecosystem, particularly [Pyleoclim](https://github.com/LinkedEarth/Pyleoclim_util). The workshops were initially planned to take place on USC’s [Wrigley Marine Science Center](https://dornsife.usc.edu/wrigley/wmsc/), but with the COVID19 pandemic the events (as so many) were moved online, as biyearly hackathons gathering 40 to 50 participants each, thus broadening their reach.  Thus [PaleoHack](https://linkedearth.github.io/paleoHackathon/) was born, and will continue as long as their are demand and funds!   
+In addition, this grant initially supported 3 yearly, 20-person workshops to disseminate the techniques developed as part of this grant, and train a new generation of paleoclimatologists in using of the Linked Paleo Data research ecosystem, particularly [Pyleoclim](https://github.com/LinkedEarth/Pyleoclim_util). The workshops were initially planned to take place on USC’s [Wrigley Marine Science Center](https://dornsife.usc.edu/wrigley/wmsc/), but with the COVID19 pandemic the events (as so many) were moved online, as biyearly hackathons gathering 40 to 50 participants each, thus broadening their reach.  Thus [PaleoHack](https://linkedearth.github.io/paleoHackathon/) was born, and will continue as long as there are demand and funds!   
 
 ## Team
 This project, led by J.E.G., is a collaboration between USC (J.E.G., Deborah Khider, Alexander James), UT Austin (Jud Partin) and UCLA (Chad Thackeray, Stephen Cropper).
