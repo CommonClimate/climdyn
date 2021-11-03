@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
+img: /assets/img/MVN_banner.png
 title: teaching
 description: Classes and educational materials. For slides/notebooks, please email Julien.
 nav: true
