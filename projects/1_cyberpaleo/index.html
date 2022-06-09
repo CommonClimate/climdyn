@@ -11,7 +11,7 @@
   USC Climate Dynamics
 
 
-  | blog
+  | CyberPaleo
 
 </title>
 <meta name="description" content="Paleoclimatology, Climate Dynamics, Data Science, Open Knowledge.
@@ -23,8 +23,8 @@
 " />
 <meta property="og:type" content="object" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="https://climdyn.usc.edu/blog/" />
-<meta property="og:description" content="blog" />
+<meta property="og:url" content="https://climdyn.usc.edu/projects/1_cyberpaleo/" />
+<meta property="og:description" content="CyberPaleo" />
 <meta property="og:image" content="" />
 
 
@@ -45,7 +45,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/1_cyberpaleo/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -109,11 +109,9 @@
           </li>
           
           <!-- Blog -->
-          <!--- <li class="nav-item active">
+          <!--- <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
-              
-              <span class="sr-only">(current)</span>
               
             </a>
           </li> -->
@@ -200,18 +198,74 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>climdyn</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">CyberPaleo</h1>
+    <p class="post-description">ushering in the future of past climates</p>
+  </header>
 
+  <article>
+    <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/cyberpaleo_header.png" alt="" title="CyberPaleo header" />
+    </div>
+</div>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>   </p>
 
-  
+<p>Just because paleogeosciences study the past, doesn’t mean they need to stay stuck in it. Until recently, people were mostly using Excel as their main tool to store, share, and analyze paleoclimate data. While spreadsheets have their place in the paleo workflow, they also severely limit the interpretability of the underlying data by humans and machines, and only allow the most rudimentary data analysis to be carried out. In the third millennium CE, we should be able to do quite a bit better than spend <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/0471448354.ch1">80% of our time data wrangling</a>. Much of my recent and present work addresses these challenges by leveraging information technology.</p>
 
+<h2 id="data-standards">Data Standards</h2>
+<p>The biggest hurdle to more integrative paleoclimatology is the lack of a well-accepted data standard. That involves three things:</p>
+
+<ol>
+  <li>
+    <p>A <strong>common structure</strong> to hold the data &amp; metadata</p>
+  </li>
+  <li>
+    <p>A <strong>common language</strong> to label the contents of that structure</p>
+  </li>
+  <li>
+    <p>A <strong>common set of practices</strong> of what data and metadata to report to enable reproducible research.</p>
+  </li>
+</ol>
+
+<p>To develop a <strong>common structure</strong>, <a href="https://www.cefns.nau.edu/~npm4/">Nick McKay</a> &amp; J.E.G introduced a flexible data format for paleo data, called <a href="https://lipd.net">LiPD</a> (pronounce “lipid”). LiPD provides a flexible structure that contains and describes any paleoclimatic or paleoenvironmental dataset, the metadata that describe the details and complexity of the data (at any level from observations to collections), as well as models that accompany the data and their output, such as age models and their ensemble output. This powers efficient, 21st century scientific workflows, and enables open science and reproducible research.</p>
+
+<p>This is why LiPD has been used in multiple data-intensive PAGES working groups, including the 2k temperature project <a href="https://www.nature.com/articles/sdata201788">(PAGES 2k Consortium, 2017)</a>, and <a href="http://pastglobalchanges.org/ini/wg/2k-network/projects/iso2k">Iso2k</a>. Being able to rely on consistently-structured data with rich metadata has greatly reduced the “time to science” for projects relying on the PAGES 2k database, such as a recent global temperature reconstruction intercomparison <a href="https://www.nature.com/articles/s41561-019-0400-0">(Neukom et al., 2019)</a>, and the <a href="https://cpo.noaa.gov/News/News-Article/ArtMID/6226/ArticleID/1807/Last-Millennium-Reanalysis-now-at-NOAAs-National-Centers-for-Environmental-Information-marking-major-milestone">Last Millennium Reanalysis</a> project. We expect similar benefits for a host of other paleo synthesis projects. For more details see <a href="http://lipd.net">LiPD’s website</a>.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/leo.png" alt="" title="Linked Earth ontology" />
+    </div>
+
+</div>
+<div class="caption">
+    Modules of the Linked Earth Ontology and their use in representing paleotemperature observations from a marine sediment core.   
+</div>
+
+<p>To develop a <strong>common language</strong>, the <a href="https://medium.com/cyberpaleo/what-is-linkedearth-fc2a43046926">LinkeEarth</a> project proposed the first <a href="https://linkedearth.github.io/ontology/">paleoclimate ontology</a>, which supports the <a href="http://wiki.linked.earth">LinkedEarth platform</a>. It is highly synergistic with <a href="https://www.ncei.noaa.gov/products/paleoclimatology/paleoenvironmental-standard-terms-thesaurus">NOAA’s PaST Thesaurus</a>.  For more information, see <a href="http://linked.earth">LinkeEarth</a>.</p>
+
+<p>To develop a <strong>common set of practices</strong>, we started a <a href="https://eos.org/research-spotlights/standardizing-the-surge-of-paleoclimate-data">community initiative</a> that culminated in a 135-author <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019PA003632">paper</a>.</p>
+
+<h2 id="paleoclimate-analytics">Paleoclimate analytics</h2>
+<p>A wide range of tools that leverage these emerging standards have been developed. This includes the <a href="https://nickmckay.github.io/LiPD-utilities/">LiPD Utilities</a>, which provide basic functionality for reading, writing and querying LiPD data in R, Matlab and Python, and provides the base level functionality for more sophisticated packages, including <a href="https://nickmckay.github.io/GeoChronR/">GeoChronR</a> and <a href="https://pyleoclim-util.readthedocs.io/en/stable/">pyleoclim</a>. A rich set of interactive, graphical, web-based tools for creating and modifying LiPD files has been created at <a href="http://lipd.net">LiPD.net</a>. The <a href="https://lipdverse.org">LiPDverse</a> hosts several thousand LiPD-formatted datasets and provides basic visualization capabilities for each of them. <a href="http://www.cs.colorado.edu/%7Elizb/cscience.html">CSciBox</a>, an AI-powered tool for age modeling, uses LiPD as an input and output format.  The upcoming <a href="https://medium.com/cyberpaleo/announcing-the-next-linkedearth-chapter-paleocube-790778b6ffb0">PaleoCube project</a> will further enhance these analytical capabilities.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/pyleo_ui.png" alt="" title="example image" />
+    </div>
+
+</div>
+<div class="caption">
+    An illustration of the Pyleoclim user interface, part of a growing collection of software tools to grease the wheels of exploring, visualizing and analyzing paleoclimate data.    
+</div>
+
+<p>With these tools in hand, the future of past climates looks quite bright. Our lab has a number of opportunities in this area, starting at the undergraduate level. Please <a href="mailto:linkedearth@gmail.com">contact us</a> if you want to contribute.
+For more context, please watch this video:</p>
+
+<iframe width="728" height="410" src="https://www.youtube.com/embed/wvOE5b8FyZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+  </article>
 
 </div>
 
