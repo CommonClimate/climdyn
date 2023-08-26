@@ -16,7 +16,7 @@ footer_text: >
 icon: 🔥 # the emoji used as the favicon
 
 
-url: https://climdyn.usc.edu # the base hostname & protocol for your site
+url: https://commonclimate.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 #url: https://commonclimate.github.io # the base hostname & protocol for your site
 #baseurl: climdyn # the subpath of your site, e.g. /blog/
